@@ -19,6 +19,7 @@ main {
       @include lower-background();
       .content {
         margin-left: 6%;
+        margin-right: 6%;
         h1 {
           @include title-font();
         }
@@ -36,13 +37,40 @@ main {
           align-items: flex-end;
           letter-spacing: -0.01em;
         }
+        .input-texto {
+          margin-top: 5%;
+          width: 94%;
+          .input-name {
+            width: 100%;
+            height: 3.5rem;
+            // height: 56px;
+            border-radius: 10px;
+            background: $box-background;
+            border: none;
+            padding-left: 6%;
+            font-family: "josefin-sans", sans-serif;
+            font-size: 1.2rem;
+          }
+          .input-name::placeholder {
+            color: #969393;
+            line-height: normal;
+            font-size: 1.1rem;
+          }
+
+          // .input-name:read-only {
+          //   color: #c2bdbd;
+          //   text-align: left;
+          //   padding-left: 1.3rem;
+          //   font-size: 1rem;
+          // }
+        }
+
         button {
           color: white;
           background-color: $main-color;
           border-radius: 10px;
-          position: absolute;
-          width: 327px;
-          height: 56px;
+          width: 100%;
+          height: 3.5rem;
           font-family: "josefin-sans", sans-serif;
           font-style: normal;
           font-weight: 500;
