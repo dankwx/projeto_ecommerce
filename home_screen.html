@@ -9,36 +9,136 @@
     <title>Home Screen</title>
   </head>
   <body>
-    <main>
+    <main class="home-container">
       <div class="container">
-        <header>
-          <div class="image">
-            <img id="menu" src="imgs/home_screen/vector-menu.png" alt="" />
+        <div class="container-background">
+          <header>
+            <div class="image">
+              <img id="menu" src="imgs/home_screen/vector-menu.png" alt="" />
+              <img
+                id="basket"
+                src="./imgs/home_screen/vector-basket.png"
+                alt=""
+              />
+            </div>
+            <p>
+              Hello Tony,
+              <strong
+                >What fruit salad<br />
+                combo do you want today?</strong
+              >
+            </p>
+
+            <input
+              placeholder="Search for fruit salad combos"
+              class="input-name"
+              type="text"
+            />
             <img
-              id="basket"
-              src="./imgs/home_screen/vector-basket.png"
+              id="filter-option"
+              src="/imgs/home_screen/filter_vector.png"
               alt=""
             />
+          </header>
+        </div>
+        <div class="container-conteudo">
+          <div class="recommended-area">
+            <h2>Recommended Combo</h2>
+            <div class="cards">
+              <div id="card-one">
+                <img
+                  id="fav-icon"
+                  src="./imgs/home_screen/fav-icon.png"
+                  alt=""
+                />
+                <img id="salad-one" src="/imgs/home_screen/salad.png" alt="" />
+                <h2>Honey lime combo</h2>
+                <img
+                  id="money-vector"
+                  src="/imgs/home_screen/card-one-value.png"
+                  alt=""
+                />
+                <img
+                  id="plus-button"
+                  src="/imgs/home_screen/plus_botton.png"
+                  alt=""
+                />
+              </div>
+              <div id="card-two">
+                <img
+                  id="fav-icon"
+                  src="./imgs/home_screen/fav-icon.png"
+                  alt=""
+                />
+                <img
+                  id="salad-two"
+                  src="/imgs/home_screen/second-salad.png"
+                  alt=""
+                />
+                <h2>Berry mango combo</h2>
+                <img
+                  id="money-vector"
+                  src="/imgs/home_screen/card-two-value.png"
+                  alt=""
+                />
+                <img
+                  id="plus-button"
+                  src="/imgs/home_screen/plus_botton.png"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
-          <p>
-            Hello Tony,
-            <strong
-              >What fruit salad<br />
-              combo do you want today?</strong
-            >
-          </p>
-
-          <input
-            placeholder="Search for fruit salad combos"
-            class="input-name"
-            type="text"
-          />
-          <img
-            id="filter-option"
-            src="/imgs/home_screen/filter_vector.png"
-            alt=""
-          />
-        </header>
+          <div class="popular-area">
+            <h2 id="subtitle">Hottest</h2>
+            <h3 id="popular-session">Popular</h3>
+            <h3 id="new-combo-session">New Combo</h3>
+            <h3 id="Top">Top</h3>
+            <div class="cards">
+              <div id="card-one">
+                <img
+                  id="fav-icon"
+                  src="./imgs/home_screen/fav-icon.png"
+                  alt=""
+                />
+                <img id="quinoa-salad" src="./imgs/home_screen/quinoa_salad.png" alt="" />
+                <h2>Quinoa Fruit Salad</h2>
+                <img
+                  id="money-vector"
+                  src="./imgs/home_screen/popular-card-one-value.png"
+                  alt=""
+                />
+                <img
+                  id="plus-button"
+                  src="./imgs/home_screen/plus_botton.png"
+                  alt=""
+                />
+              </div>
+              <div id="card-two">
+                <img
+                  id="fav-icon"
+                  src="/imgs/home_screen/fav-icon.png"
+                  alt=""
+                />
+                <img
+                  id="tropical-salad"
+                  src="/imgs/home_screen/tropical-salad.png"
+                  alt=""
+                />
+                <h2>Tropical Fruit Salad</h2>
+                <img id="money-vector"
+                  src="/imgs/home_screen/popular-card-one-value.png"
+                  alt=""
+                />
+                <img
+                  id="plus-button"
+                  src="/imgs/home_screen/plus_botton.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
