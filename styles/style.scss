@@ -41,15 +41,7 @@ main {
           margin-top: 5%;
           width: 94%;
           .input-name {
-            width: 100%;
-            height: 3.5rem;
-            // height: 56px;
-            border-radius: 10px;
-            background: $box-background;
-            border: none;
-            padding-left: 6%;
-            font-family: "josefin-sans", sans-serif;
-            font-size: 1.2rem;
+            @include text-input-box();
           }
           .input-name::placeholder {
             color: #969393;
@@ -81,5 +73,61 @@ main {
         }
       }
     }
+    header {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 5%;
+      .image {
+        height: 3.4rem;
+        #menu {
+          display: inline-block;
+          position: relative;
+          top: 30%;
+        }
+        #basket {
+          float: right;
+          position: relative;
+          top: 13%;
+        }
+      }
+      p {
+        font-family: "josefin-sans", sans-serif;
+        letter-spacing: -0.01em;
+        strong {
+          font-weight: bold;
+          font-family: "josefin-sans", sans-serif;
+        }
+      }
+    }
+    #filter-option {
+      vertical-align: middle;
+      display: inline-block;
+      margin-top: 6%;
+    }
+  }
+  .input-name {
+    @include text-input-box();
+    margin-top: 7%;
+    width: 80%;
+    font-size: 0.875;
+    background-image: url("../imgs/home_screen/search_vector.png");
+    background-repeat: no-repeat;
+    top: 50%;
+    background-size: 8%;
+    text-indent: 49px;
+    padding: 5px 3px;
+    transition: 0.3s;
+    vertical-align: middle;
+    margin-right: 8%;
+  }
+  .input-name::placeholder {
+    color: #969393;
+    line-height: normal;
+    font-size: 0.875rem;
+    position: absolute;
+    left: 20.53%;
+    right: 37.07%;
+    top: 27.46%;
+    bottom: 69.95%;
   }
 }

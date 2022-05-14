@@ -35,3 +35,14 @@
   letter-spacing: -0.01em;
   margin-top: 3rem;
 }
+
+@mixin text-input-box {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 10px;
+  background: $box-background;
+  border: none;
+  padding-left: 6%;
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1.2rem;
+}
