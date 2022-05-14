@@ -381,7 +381,131 @@ main .input-name::placeholder {
   top: 27.46%;
   bottom: 69.95%;
 }
-
-.home-container {
+main .home-container {
   background-color: #f1eff6;
+}
+
+/* main page for add-to-basket screen */
+.add-basket {
+  background-color: #ffa451;
+}
+.add-basket .top-container {
+  overflow: visible;
+  width: 100%;
+  height: 35%;
+  border-radius: 10px;
+  text-align: center;
+}
+.add-basket .top-container #back-button {
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.add-basket .top-container #quinoa-salad {
+  margin: 10% auto;
+}
+.add-basket .top-container .back-area {
+  width: 100%;
+  height: 4.1%;
+  position: absolute;
+}
+.add-basket .top-container .selected-item {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+}
+.add-basket .botton-container {
+  width: 100%;
+  height: 65%;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.add-basket .botton-container h2 {
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1.8rem;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top: 8%;
+}
+.add-basket .botton-container .quantity-control {
+  width: 100%;
+  height: 8%;
+  margin-top: 5%;
+  border-bottom: 1px solid #f3f3f3;
+  padding-bottom: 6%;
+}
+.add-basket .botton-container .quantity-control #decres-button {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0.7%;
+  margin-right: 2%;
+  margin-left: 6%;
+}
+.add-basket .botton-container .quantity-control #item-quantity {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin-right: 2%;
+  vertical-align: middle;
+  margin-top: -5%;
+}
+.add-basket .botton-container .quantity-control #acres-button {
+  display: inline-block;
+  margin-top: 0.7%;
+}
+.add-basket .botton-container .quantity-control #value-sign {
+  float: right;
+  margin-top: 0.9%;
+}
+.add-basket .botton-container .quantity-control #total-value {
+  float: right;
+  margin-right: 6%;
+  font-size: 1.5rem;
+  margin-left: 4%;
+}
+.add-basket .botton-container .order-details {
+  height: 32%;
+  border-bottom: 1px solid #f3f3f3;
+}
+.add-basket .botton-container .order-details .order-contains #order-title {
+  width: 48%;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #ffa451;
+}
+.add-basket .botton-container .order-details .order-contains p {
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+.add-basket .botton-container .botton-info {
+  width: 100%;
+  height: 41%;
+}
+.add-basket .botton-container .botton-info p {
+  margin-left: 6%;
+  margin-right: 10%;
+  padding-top: 10%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+  margin-bottom: 10%;
+}
+.add-basket .botton-container .botton-info button {
+  color: white;
+  background-color: #ffa451;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  float: right;
+}
+.add-basket .botton-container .botton-info .extra-information {
+  margin-right: 6%;
+  margin-left: 6%;
 }/*# sourceMappingURL=style.css.map */
