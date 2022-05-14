@@ -46,10 +46,11 @@ main .container .white-background .content h1 {
 main .container .white-background .content p {
   font-family: "josefin-sans", sans-serif;
   font-style: normal;
+  color: #5d577e;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 2rem;
+  margin-top: 1rem;
   /* or 150% */
   display: flex;
   align-items: flex-end;
@@ -68,4 +69,5 @@ main .container .white-background .content button {
   font-size: 16px;
   line-height: 24px;
   margin-top: 15%;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
