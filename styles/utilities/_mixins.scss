@@ -46,3 +46,18 @@
   font-family: "josefin-sans", sans-serif;
   font-size: 1.2rem;
 }
+@mixin recommended-cards {
+  width: 43%;
+  height: 100%;
+  background-color: white;
+  float: right;
+  border-radius: 16px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+@mixin card-content-title {
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1rem;
+  margin-top: 4%;
+}

@@ -2,9 +2,15 @@
 @import "./style.css";
 @import "./utilities/variables";
 
+body {
+  height: 100vh;
+}
 main {
+  height: 100vh;
   .container {
-    height: 100%;
+    height: 100vh;
+    position: absolute;
+
     width: 100%;
     .vector-logo {
       @include image-vector();
@@ -73,6 +79,16 @@ main {
         }
       }
     }
+    .container-background {
+      background: rgb(255, 255, 255);
+      background: linear-gradient(
+        184deg,
+        rgba(255, 255, 255, 1) 70%,
+        rgba(241, 239, 246, 1) 100%
+      );
+      padding-bottom: 19%;
+      padding-top: 2%;
+    }
     header {
       margin-left: 6%;
       margin-right: 6%;
@@ -104,6 +120,180 @@ main {
       display: inline-block;
       margin-top: 6%;
     }
+    .container-conteudo {
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: -15%;
+      .recommended-area {
+        h2 {
+          @include title-font();
+        }
+        .cards {
+          margin-top: 4%;
+          width: 100%;
+          height: 11.438rem;
+          #card-one {
+            @include recommended-cards();
+            float: left;
+            text-align: center;
+            h2 {
+              @include card-content-title();
+              font-weight: bold;
+              text-align: center;
+              letter-spacing: -0.01em;
+            }
+            #money-vector {
+              float: left;
+            }
+            #plus-button {
+              float: right;
+            }
+          }
+          #fav-icon {
+            float: right;
+            margin-right: 10%;
+            margin-top: 8%;
+          }
+
+          #salad-one {
+            margin-top: 10%;
+          }
+          #card-two {
+            @include recommended-cards();
+            width: 45%;
+            text-align: center;
+            h2 {
+              @include card-content-title();
+              font-weight: bold;
+              text-align: center;
+              letter-spacing: -0.01em;
+            }
+            #money-vector {
+              float: left;
+            }
+            #plus-button {
+              float: right;
+            }
+            #salad-two {
+              margin-top: 10%;
+            }
+          }
+        }
+      }
+      .popular-area {
+        width: 100%;
+        margin-top: 15%;
+
+        #subtitle {
+          font-family: "josefin-sans", sans-serif;
+          letter-spacing: -0.01em;
+          font-weight: bold;
+          font-size: 140%;
+          margin-right: 8%;
+          display: inline-block;
+        }
+        h3 {
+          display: inline-block;
+          font-family: "josefin-sans", sans-serif;
+          letter-spacing: -0.01em;
+        }
+        #popular-session {
+          margin-right: 9%;
+        }
+        #new-combo-session {
+          margin-right: 9%;
+        }
+        .cards {
+          width: 100%;
+          height: 10.4rem;
+          margin-top: 9%;
+          text-align: center;
+          #card-one {
+            @include recommended-cards();
+            text-align: center;
+            float: left;
+            // text-align: center;
+            // width: 43%;
+            // height: 100%;
+            // float: left;
+            // border-radius: 16px;
+            // padding-left: 2%;
+            // padding-right: 2%;
+            // background-color: #fffaeb;
+            // margin-right: 6%;
+            h2 {
+              font-family: "josefin-sans", sans-serif;
+              font-size: 1rem;
+              margin-top: 4%;
+              font-weight: bold;
+              text-align: center;
+              letter-spacing: -0.01em;
+              margin-bottom: 2%;
+            }
+
+            #fav-icon {
+              float: right;
+              margin-right: 10%;
+              margin-top: 8%;
+            }
+
+            #quinoa-salad {
+              margin-top: 10%;
+              text-align: center;
+            }
+            #money-vector {
+              float: left;
+            }
+            #plus-button {
+              float: right;
+            }
+            #salad-two {
+              margin-top: 10%;
+            }
+          }
+          #card-two {
+            @include recommended-cards();
+            text-align: center;
+            // text-align: center;
+            // width: 43%;
+            // height: 100%;
+            // float: left;
+            // border-radius: 16px;
+            // padding-left: 2%;
+            // padding-right: 2%;
+            // background-color: #fef0f0;
+
+            #fav-icon {
+              float: right;
+              margin-right: 10%;
+              margin-top: 8%;
+            }
+            #money-vector {
+              float: left;
+            }
+            #plus-button {
+              float: right;
+            }
+            #tropical-salad {
+              margin-top: 10%;
+              text-align: center;
+              margin-bottom: 4%;
+            }
+
+            h2 {
+              font-family: "josefin-sans", sans-serif;
+              margin-top: 4%;
+              font-weight: bold;
+              text-align: center;
+              letter-spacing: -0.01em;
+              font-size: 1rem;
+              text-align: center;
+              margin-bottom: 2%;
+            }
+          }
+        }
+      }
+    }
   }
   .input-name {
     @include text-input-box();
@@ -130,4 +320,7 @@ main {
     top: 27.46%;
     bottom: 69.95%;
   }
+}
+.home-container {
+  background-color: #f1eff6;
 }
