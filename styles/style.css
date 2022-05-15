@@ -960,4 +960,100 @@ body #order-complete-page #button-botton {
   float: none;
   display: block;
   transform: translate(49%, -20%);
+}
+body #main-track-order-page {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+body #main-track-order-page header {
+  width: 100%;
+  height: 20%;
+  background-color: #ffa451;
+  margin-bottom: 10%;
+}
+body #main-track-order-page header img {
+  margin-top: 15%;
+  margin-left: 9%;
+  margin-right: 4%;
+  margin-right: 10%;
+  display: inline-block;
+}
+body #main-track-order-page header h2 {
+  font-family: "josefin-sans", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  display: inline;
+}
+body #main-track-order-page .test-container {
+  position: inherit;
+  display: block;
+  width: 88%;
+  height: 80%;
+  background-color: white;
+  margin-left: 6%;
+}
+body #main-track-order-page .test-container .boxes {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body #main-track-order-page .test-container .boxes .left-content {
+  width: auto;
+  height: 46.4%;
+  display: inline-block;
+  vertical-align: top;
+}
+body #main-track-order-page .test-container .boxes .center-content {
+  width: auto;
+  height: 46.4%;
+  display: inline-block;
+  vertical-align: top;
+}
+body #main-track-order-page .test-container .boxes .center-content h2 {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 600;
+}
+body #main-track-order-page .test-container .boxes .center-content h2 strong {
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 500;
+}
+body #main-track-order-page .test-container .boxes .right-content {
+  width: auto;
+  height: 46.4%;
+  display: inline-block;
+  float: right;
+}
+body #main-track-order-page .test-container .boxes .map-content {
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+body #main-track-order-page .test-container .boxes .map-content img {
+  float: left;
+  min-width: 50%;
+  min-height: 70%;
+}
+body #main-track-order-page .test-container .boxes .botton-content {
+  width: 100%;
+  height: 20%;
+  display: inline-block;
+}
+body #main-track-order-page .test-container .boxes .botton-content .left-content {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+body #main-track-order-page .test-container .boxes .botton-content .center-content {
+  width: auto;
+  height: 100%;
+  display: inline-block;
+}
+body #main-track-order-page .test-container .boxes .botton-content .center-content h2 {
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1rem;
+  vertical-align: bottom;
 }/*# sourceMappingURL=style.css.map */
