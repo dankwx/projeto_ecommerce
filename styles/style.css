@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./style.css";
 body {
   height: 100vh;
@@ -508,4 +509,168 @@ main .home-container {
 .add-basket .botton-container .botton-info .extra-information {
   margin-right: 6%;
   margin-left: 6%;
+}
+
+/* main da página Order List */
+#order-list {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#order-list header {
+  background-color: #ffa451;
+  width: 100%;
+  height: 20%;
+}
+#order-list header #back-button {
+  margin-left: 6%;
+  margin-right: 11%;
+  margin-top: 15%;
+}
+#order-list header h2 {
+  color: white;
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+#order-list .cards {
+  width: 100%;
+  height: 100%;
+  margin-left: 6%;
+}
+#order-list .cards h2 {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  display: inline-block;
+  margin-top: 10%;
+  position: absolute;
+}
+#order-list .cards #melon {
+  margin-top: 6.5%;
+}
+#order-list .cards #tropical {
+  margin-top: 6.5%;
+}
+#order-list .cards .card-one {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#order-list .cards .card-one img {
+  display: inline-block;
+  margin-top: 10%;
+  margin-right: 4%;
+}
+#order-list .cards .card-one #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#order-list .cards .card-one #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .card-one #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 16%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .card-two {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#order-list .cards .card-two img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#order-list .cards .card-two #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#order-list .cards .card-two #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .card-two #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .card-three {
+  width: 87%;
+  height: 15%;
+}
+#order-list .cards .card-three img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#order-list .cards .card-three #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#order-list .cards .card-three #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .card-three #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#order-list .cards .teste-container {
+  height: 33%;
+  margin-top: 10%;
+}
+#order-list .cards .teste-container button {
+  color: white;
+  background-color: #ffa451;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  float: right;
+  margin-right: 12%;
+  margin-top: 25%;
+}
+#order-list .cards .teste-container #total {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 25%;
+  float: left;
+  position: absolute;
+}
+#order-list .cards .teste-container #value {
+  padding-top: 5%;
+  float: left;
+  padding-top: 31%;
+  position: absolute;
+}
+#order-list .cards .teste-container #value-total {
+  font-size: 1.5rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 30.5%;
+  padding-left: 20%;
+}
+#order-list .teste-container {
+  width: 100%;
+  height: 23%;
 }/*# sourceMappingURL=style.css.map */
