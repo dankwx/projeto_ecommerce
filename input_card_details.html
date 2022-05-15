@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="darker-background"></div>
-    <main id="order-list">
+    <main id="card-details">
       <header>
         <img
           id="back-button"
@@ -50,21 +50,35 @@
       </div>
     </main>
     <img
-      id="cancel-button"
+      id="cancel-button-card"
       src="./imgs/complete_details_page/Cancel.png"
       alt=""
     />
-    <div class="popup">
-      <h2 id="title">Delivery address</h2>
+    <div class="popup-card-page">
+      <h2 id="title-date">Card Holders Name</h2>
+      <input placeholder="Adolphus Chris" class="input-name" type="text" />
+      <h2 id="title">Card Number</h2>
+      <input placeholder="1234 5678 9012 1314" class="input-name" type="text" />
+      <h2 id="title-date">Date</h2>
+      <h2 id="title-cvv">CCV</h2>
       <input
-        placeholder="10th avenue, Lekki, Lagos State"
+        id="date-text-box"
+        placeholder="10/30"
         class="input-name"
         type="text"
       />
-      <h2 id="title">Number we can call</h2>
-      <input placeholder="09090605708" class="input-name" type="text" />
-      <button id="button-left" type="button">Pay on delivery</button>
-      <button id="button-right" type="button">Pay with card</button>
+      <input
+        id="cvv-text-box"
+        placeholder="123"
+        class="input-name"
+        type="text"
+      />
+      <div class="botao-background">
+        <button id="button-complete-order" type="button">Complete Order</button>
+      </div>
+
+      <!-- <button id="button-left" type="button">Pay on delivery</button>
+      <button id="button-right" type="button">Pay with card</button> -->
     </div>
   </body>
 </html>
