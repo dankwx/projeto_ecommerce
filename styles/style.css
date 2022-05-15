@@ -907,6 +907,142 @@ body .popup #button-right {
   margin-top: 6%;
   cursor: pointer;
 }
+body .popup-card-page {
+  width: 100%;
+  position: absolute;
+  opacity: 1;
+  height: 50%;
+  top: 37.9%;
+  z-index: 11;
+  background-color: white;
+  border-radius: 30px;
+}
+body .popup-card-page #title {
+  font-size: 1.25rem;
+  font-family: "josefin-sans", sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  font-weight: 550;
+}
+body .popup-card-page #title-date {
+  font-size: 1.25rem;
+  font-family: "josefin-sans", sans-serif;
+  margin-left: 6%;
+  margin-right: 40%;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  font-weight: 550;
+  display: inline-block;
+}
+body .popup-card-page #title-cvv {
+  font-size: 1.25rem;
+  font-family: "josefin-sans", sans-serif;
+  margin-right: 6%;
+  margin-bottom: 6%;
+  font-weight: 550;
+  display: inline-block;
+}
+body .popup-card-page #date-text-box {
+  width: 30%;
+  display: inline-block;
+}
+body .popup-card-page #cvv-text-box {
+  width: 30%;
+  display: inline-block;
+}
+body .popup-card-page .botao-background {
+  width: 100%;
+  height: 20%;
+  background-color: #ffa451;
+  margin-top: 5%;
+  text-align: center;
+  border-radius: 24px 24px 0px 0px;
+}
+body .popup-card-page .botao-background #button-complete-order {
+  color: #ffa451;
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #ffa451;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+  border-color: #ffa451;
+  border-radius: 10px;
+  float: left;
+  margin-left: 28%;
+  margin-top: 3%;
+  cursor: pointer;
+}
+body .popup-card-page input {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 10px;
+  background: #f3f1f1;
+  border: none;
+  padding-left: 6%;
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1.2rem;
+  margin-left: 6%;
+  margin-right: 6%;
+  width: 80%;
+}
+body .popup-card-page #button-left {
+  color: #ffa451;
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid;
+  border-color: #ffa451;
+  border-radius: 10px;
+  float: left;
+  margin-left: 6%;
+  margin-top: 6%;
+  cursor: pointer;
+}
+body .popup-card-page #button-right {
+  color: #ffa451;
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid;
+  border-color: #ffa451;
+  border-radius: 10px;
+  float: right;
+  margin-right: 6%;
+  margin-top: 6%;
+  cursor: pointer;
+}
+body #cancel-button-card {
+  z-index: 12;
+  position: absolute;
+  opacity: 1;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
 body #order-complete-page {
   width: 100%;
   height: 100vh;
@@ -1056,4 +1192,309 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   font-family: "josefin-sans", sans-serif;
   font-size: 1rem;
   vertical-align: bottom;
+}
+
+#card-details {
+  position: absolute;
+  z-index: 8;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+#card-details header {
+  background-color: #ffa451;
+  width: 100%;
+  height: 20%;
+}
+#card-details header #back-button {
+  margin-left: 6%;
+  margin-right: 11%;
+  margin-top: 15%;
+}
+#card-details header h2 {
+  color: white;
+  font-family: "josefin-sans", sans-serif;
+  font-size: 1.5rem;
+  display: inline-block;
+}
+#card-details .cards {
+  width: 100%;
+  height: 100%;
+  margin-left: 6%;
+}
+#card-details .cards h2 {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  display: inline-block;
+  margin-top: 10%;
+  position: absolute;
+}
+#card-details .cards #melon {
+  margin-top: 6.5%;
+}
+#card-details .cards #tropical {
+  margin-top: 6.5%;
+}
+#card-details .cards .card-one {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#card-details .cards .card-one img {
+  display: inline-block;
+  margin-top: 10%;
+  margin-right: 4%;
+}
+#card-details .cards .card-one #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards .card-one #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .card-one #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 16%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .card-two {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#card-details .cards .card-two img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#card-details .cards .card-two #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards .card-two #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .card-two #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .card-three {
+  width: 87%;
+  height: 15%;
+}
+#card-details .cards .card-three img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#card-details .cards .card-three #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards .card-three #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .card-three #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards .teste-container {
+  height: 33%;
+  margin-top: 10%;
+}
+#card-details .cards .teste-container button {
+  color: white;
+  background-color: #ffa451;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  float: right;
+  margin-right: 12%;
+  margin-top: 25%;
+}
+#card-details .cards .teste-container #total {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 25%;
+  float: left;
+  position: absolute;
+}
+#card-details .cards .teste-container #value {
+  padding-top: 5%;
+  float: left;
+  padding-top: 31%;
+  position: absolute;
+}
+#card-details .cards .teste-container #value-total {
+  font-size: 1.5rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 30.5%;
+  padding-left: 20%;
+}
+#card-details .cards-details-page {
+  width: 100%;
+  height: 100%;
+  margin-left: 6%;
+}
+#card-details .cards-details-page h2 {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  display: inline-block;
+  margin-top: 10%;
+  position: absolute;
+}
+#card-details .cards-details-page #melon {
+  margin-top: 6.5%;
+}
+#card-details .cards-details-page #tropical {
+  margin-top: 6.5%;
+}
+#card-details .cards-details-page .card-one {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#card-details .cards-details-page .card-one img {
+  display: inline-block;
+  margin-top: 10%;
+  margin-right: 4%;
+}
+#card-details .cards-details-page .card-one #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards-details-page .card-one #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .card-one #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 16%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .card-two {
+  width: 87%;
+  height: 15%;
+  border-bottom: 1px solid #f3f3f3;
+}
+#card-details .cards-details-page .card-two img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#card-details .cards-details-page .card-two #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards-details-page .card-two #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .card-two #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .popup-content {
+  width: 100%;
+  height: 100%;
+  margin-left: -6%;
+  border-radius: 30px;
+  margin-top: 9%;
+}
+#card-details .cards-details-page .popup-content img {
+  display: inline-block;
+  margin-top: 7%;
+  margin-right: 4%;
+}
+#card-details .cards-details-page .popup-content #value-sign {
+  float: right;
+  margin-top: 14%;
+}
+#card-details .cards-details-page .popup-content #item-value {
+  float: right;
+  display: inline;
+  margin-top: 14%;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .popup-content #qtd {
+  display: inline-block;
+  position: absolute;
+  margin-top: 13%;
+  font-size: 0.875rem;
+  font-family: "josefin-sans", sans-serif;
+}
+#card-details .cards-details-page .teste-container {
+  height: 33%;
+  margin-top: 10%;
+}
+#card-details .cards-details-page .teste-container button {
+  color: white;
+  background-color: #ffa451;
+  border-radius: 10px;
+  width: 40%;
+  height: 3.5rem;
+  font-family: "josefin-sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  float: right;
+  margin-right: 12%;
+  margin-top: 25%;
+}
+#card-details .cards-details-page .teste-container #total {
+  font-size: 1rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 25%;
+  float: left;
+  position: absolute;
+}
+#card-details .cards-details-page .teste-container #value {
+  padding-top: 5%;
+  float: left;
+  padding-top: 31%;
+  position: absolute;
+}
+#card-details .cards-details-page .teste-container #value-total {
+  font-size: 1.5rem;
+  font-family: "josefin-sans", sans-serif;
+  padding-top: 30.5%;
+  padding-left: 20%;
+}
+#card-details .teste-container {
+  width: 100%;
+  height: 23%;
 }/*# sourceMappingURL=style.css.map */
