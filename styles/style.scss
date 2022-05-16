@@ -32,9 +32,10 @@ main {
         margin-right: 6%;
         h1 {
           @include title-font();
+          font-family: "Nunito", sans-serif;
         }
         p {
-          font-family: "josefin-sans", sans-serif;
+          font-family: "Nunito", sans-serif;
           font-style: normal;
           color: $second-color;
           font-weight: 300;
@@ -73,7 +74,7 @@ main {
           border-radius: 10px;
           width: 100%;
           height: 3.5rem;
-          font-family: "josefin-sans", sans-serif;
+          font-family: "Nunito", sans-serif;
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
@@ -112,11 +113,11 @@ main {
         }
       }
       p {
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         letter-spacing: -0.01em;
         strong {
           font-weight: bold;
-          font-family: "josefin-sans", sans-serif;
+          font-family: "Nunito", sans-serif;
         }
       }
     }
@@ -132,6 +133,7 @@ main {
       .recommended-area {
         h2 {
           @include title-font();
+          font-family: "Nunito", sans-serif;
         }
         .cards {
           margin-top: 4%;
@@ -146,6 +148,7 @@ main {
               font-weight: bold;
               text-align: center;
               letter-spacing: -0.01em;
+              font-family: "Nunito", sans-serif;
             }
             #money-vector {
               float: left;
@@ -172,6 +175,7 @@ main {
               font-weight: bold;
               text-align: center;
               letter-spacing: -0.01em;
+              font-family: "Nunito", sans-serif;
             }
             #money-vector {
               float: left;
@@ -190,17 +194,19 @@ main {
         margin-top: 15%;
 
         #subtitle {
-          font-family: "josefin-sans", sans-serif;
+          font-family: "Nunito", sans-serif;
           letter-spacing: -0.01em;
           font-weight: bold;
           font-size: 140%;
-          margin-right: 8%;
+          margin-right: 6%;
           display: inline-block;
+          cursor: pointer;
         }
         h3 {
           display: inline-block;
-          font-family: "josefin-sans", sans-serif;
+          font-family: "Nunito", sans-serif;
           letter-spacing: -0.01em;
+          cursor: pointer;
         }
         #popular-session {
           margin-right: 9%;
@@ -217,6 +223,8 @@ main {
             @include recommended-cards();
             text-align: center;
             float: left;
+            background-color: #fffaeb;
+
             // text-align: center;
             // width: 43%;
             // height: 100%;
@@ -227,7 +235,7 @@ main {
             // background-color: #fffaeb;
             // margin-right: 6%;
             h2 {
-              font-family: "josefin-sans", sans-serif;
+              font-family: "Nunito", sans-serif;
               font-size: 1rem;
               margin-top: 4%;
               font-weight: bold;
@@ -260,6 +268,7 @@ main {
           #card-two {
             @include recommended-cards();
             text-align: center;
+            background-color: #f7dfdf;
             // text-align: center;
             // width: 43%;
             // height: 100%;
@@ -287,7 +296,7 @@ main {
             }
 
             h2 {
-              font-family: "josefin-sans", sans-serif;
+              font-family: "Nunito", sans-serif;
               margin-top: 4%;
               font-weight: bold;
               text-align: center;
@@ -306,8 +315,6 @@ main {
     margin-top: 7%;
     width: 80%;
     font-size: 0.875;
-    background-image: url("../imgs/home_screen/search_vector.png");
-    background-repeat: no-repeat;
     top: 50%;
     background-size: 8%;
     text-indent: 49px;
@@ -369,7 +376,7 @@ main {
     overflow: hidden;
 
     h2 {
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 1.8rem;
       margin-left: 7%;
       margin-right: 7%;
@@ -411,6 +418,9 @@ main {
         font-size: 1.5rem;
         margin-left: 4%;
       }
+      p {
+        font-family: "Nunito", sans-serif;
+      }
     }
     .order-details {
       height: 32%;
@@ -427,6 +437,7 @@ main {
           font-weight: 500;
           margin-left: 6%;
           margin-top: 4%;
+          font-family: "Nunito", sans-serif;
         }
       }
     }
@@ -439,7 +450,7 @@ main {
         margin-right: 10%;
         padding-top: 10%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         margin-bottom: 10%;
       }
       button {
@@ -448,7 +459,7 @@ main {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -461,6 +472,10 @@ main {
         margin-left: 6%;
         button {
           cursor: pointer;
+          font-family: "Nunito", sans-serif;
+        }
+        p {
+          font-family: "Nunito", sans-serif;
         }
       }
     }
@@ -487,7 +502,7 @@ main {
     }
     h2 {
       color: white;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 1.5rem;
       display: inline-block;
     }
@@ -499,7 +514,7 @@ main {
 
     h2 {
       font-size: 1rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       display: inline-block;
       margin-top: 10%;
       position: absolute;
@@ -527,14 +542,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 16%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-two {
@@ -554,14 +569,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-three {
@@ -580,14 +595,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .teste-container {
@@ -599,7 +614,7 @@ main {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -612,7 +627,7 @@ main {
       }
       #total {
         font-size: 1rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 25%;
         float: left;
         position: absolute;
@@ -625,7 +640,7 @@ main {
       }
       #value-total {
         font-size: 1.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 30.5%;
         padding-left: 20%;
       }
@@ -638,7 +653,7 @@ main {
 
     h2 {
       font-size: 1rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       display: inline-block;
       margin-top: 10%;
       position: absolute;
@@ -666,14 +681,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 16%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-two {
@@ -693,14 +708,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .popup-content {
@@ -722,14 +737,14 @@ main {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .teste-container {
@@ -741,7 +756,7 @@ main {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -753,7 +768,7 @@ main {
       }
       #total {
         font-size: 1rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 25%;
         float: left;
         position: absolute;
@@ -766,7 +781,7 @@ main {
       }
       #value-total {
         font-size: 1.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 30.5%;
         padding-left: 20%;
       }
@@ -784,6 +799,10 @@ main {
 }
 body {
   height: 100vh;
+  .home-container {
+    background-color: #f1eff6;
+  }
+
   .darker-background {
     width: 100%;
     height: 60%;
@@ -816,7 +835,7 @@ body {
 
     #title {
       font-size: 1.25rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       margin-left: 6%;
       margin-right: 6%;
       margin-top: 10%;
@@ -835,7 +854,7 @@ body {
       border-radius: 10px;
       width: 40%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -854,7 +873,7 @@ body {
       border-radius: 10px;
       width: 40%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -880,7 +899,7 @@ body {
 
     #title {
       font-size: 1.25rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       margin-left: 6%;
       margin-right: 6%;
       margin-top: 10%;
@@ -890,7 +909,7 @@ body {
 
     #title-date {
       font-size: 1.25rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       margin-left: 6%;
       margin-right: 40%;
       margin-top: 10%;
@@ -900,7 +919,7 @@ body {
     }
     #title-cvv {
       font-size: 1.25rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       margin-right: 6%;
       margin-bottom: 6%;
       font-weight: 550;
@@ -929,7 +948,7 @@ body {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -959,7 +978,7 @@ body {
       border-radius: 10px;
       width: 40%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -978,7 +997,7 @@ body {
       border-radius: 10px;
       width: 40%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -1014,12 +1033,12 @@ body {
       margin-bottom: 10%;
     }
     h2 {
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 2rem;
       margin-bottom: 5%;
     }
     p {
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 1.25rem;
       margin-bottom: 20%;
     }
@@ -1029,7 +1048,7 @@ body {
       border-radius: 10px;
       width: 40%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -1048,7 +1067,7 @@ body {
       border-radius: 10px;
       width: 50%;
       height: 3.5rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;
@@ -1079,9 +1098,10 @@ body {
         margin-right: 4%;
         margin-right: 10%;
         display: inline-block;
+        cursor: pointer;
       }
       h2 {
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         color: white;
         font-size: 1.5rem;
         display: inline;
@@ -1114,12 +1134,12 @@ body {
 
           h2 {
             font-size: 1rem;
-            font-family: "josefin-sans", sans-serif;
+            font-family: "Nunito", sans-serif;
             font-weight: 600;
 
             strong {
               font-size: 0.875rem;
-              font-family: "josefin-sans", sans-serif;
+              font-family: "Nunito", sans-serif;
               font-weight: 500;
             }
           }
@@ -1127,7 +1147,6 @@ body {
         .right-content {
           width: auto;
           height: 46.4%;
-          display: inline-block;
           float: right;
         }
         .map-content {
@@ -1157,7 +1176,7 @@ body {
             height: 100%;
             display: inline-block;
             h2 {
-              font-family: "josefin-sans", sans-serif;
+              font-family: "Nunito", sans-serif;
               font-size: 1rem;
               vertical-align: bottom;
             }
@@ -1186,7 +1205,7 @@ body {
     }
     h2 {
       color: white;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 1.5rem;
       display: inline-block;
     }
@@ -1198,7 +1217,7 @@ body {
 
     h2 {
       font-size: 1rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       display: inline-block;
       margin-top: 10%;
       position: absolute;
@@ -1226,14 +1245,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 16%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-two {
@@ -1253,14 +1272,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-three {
@@ -1279,14 +1298,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .teste-container {
@@ -1298,7 +1317,7 @@ body {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -1310,7 +1329,7 @@ body {
       }
       #total {
         font-size: 1rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 25%;
         float: left;
         position: absolute;
@@ -1323,7 +1342,7 @@ body {
       }
       #value-total {
         font-size: 1.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 30.5%;
         padding-left: 20%;
       }
@@ -1336,7 +1355,7 @@ body {
 
     h2 {
       font-size: 1rem;
-      font-family: "josefin-sans", sans-serif;
+      font-family: "Nunito", sans-serif;
       display: inline-block;
       margin-top: 10%;
       position: absolute;
@@ -1364,14 +1383,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 16%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .card-two {
@@ -1391,14 +1410,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .popup-content {
@@ -1420,14 +1439,14 @@ body {
         float: right;
         display: inline;
         margin-top: 14%;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
       #qtd {
         display: inline-block;
         position: absolute;
         margin-top: 13%;
         font-size: 0.875rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
       }
     }
     .teste-container {
@@ -1439,7 +1458,7 @@ body {
         border-radius: 10px;
         width: 40%;
         height: 3.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -1451,7 +1470,7 @@ body {
       }
       #total {
         font-size: 1rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 25%;
         float: left;
         position: absolute;
@@ -1464,7 +1483,7 @@ body {
       }
       #value-total {
         font-size: 1.5rem;
-        font-family: "josefin-sans", sans-serif;
+        font-family: "Nunito", sans-serif;
         padding-top: 30.5%;
         padding-left: 20%;
       }
@@ -1474,9 +1493,4 @@ body {
     width: 100%;
     height: 23%;
   }
-  // .checkout-area{
-  //   width: 100%;
-  //   height: 100%;
-  //   background-color: red;
-  // }
 }

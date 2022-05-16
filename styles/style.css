@@ -56,9 +56,10 @@ main .container .white-background .content h1 {
   line-height: 29px;
   letter-spacing: -0.01em;
   margin-top: 3rem;
+  font-family: "Nunito", sans-serif;
 }
 main .container .white-background .content p {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   color: #5d577e;
   font-weight: 300;
@@ -105,7 +106,7 @@ main .container .white-background .content button {
   border-radius: 10px;
   width: 100%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -139,12 +140,12 @@ main .container header .image #basket {
   top: 13%;
 }
 main .container header p {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: -0.01em;
 }
 main .container header p strong {
   font-weight: bold;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 main .container #filter-option {
   vertical-align: middle;
@@ -165,6 +166,7 @@ main .container .container-conteudo .recommended-area h2 {
   line-height: 29px;
   letter-spacing: -0.01em;
   margin-top: 3rem;
+  font-family: "Nunito", sans-serif;
 }
 main .container .container-conteudo .recommended-area .cards {
   margin-top: 4%;
@@ -189,6 +191,7 @@ main .container .container-conteudo .recommended-area .cards #card-one h2 {
   font-weight: bold;
   text-align: center;
   letter-spacing: -0.01em;
+  font-family: "Nunito", sans-serif;
 }
 main .container .container-conteudo .recommended-area .cards #card-one #money-vector {
   float: left;
@@ -222,6 +225,7 @@ main .container .container-conteudo .recommended-area .cards #card-two h2 {
   font-weight: bold;
   text-align: center;
   letter-spacing: -0.01em;
+  font-family: "Nunito", sans-serif;
 }
 main .container .container-conteudo .recommended-area .cards #card-two #money-vector {
   float: left;
@@ -237,17 +241,19 @@ main .container .container-conteudo .popular-area {
   margin-top: 15%;
 }
 main .container .container-conteudo .popular-area #subtitle {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: -0.01em;
   font-weight: bold;
   font-size: 140%;
-  margin-right: 8%;
+  margin-right: 6%;
   display: inline-block;
+  cursor: pointer;
 }
 main .container .container-conteudo .popular-area h3 {
   display: inline-block;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: -0.01em;
+  cursor: pointer;
 }
 main .container .container-conteudo .popular-area #popular-session {
   margin-right: 9%;
@@ -271,9 +277,10 @@ main .container .container-conteudo .popular-area .cards #card-one {
   padding-right: 2%;
   text-align: center;
   float: left;
+  background-color: #fffaeb;
 }
 main .container .container-conteudo .popular-area .cards #card-one h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1rem;
   margin-top: 4%;
   font-weight: bold;
@@ -309,6 +316,7 @@ main .container .container-conteudo .popular-area .cards #card-two {
   padding-left: 2%;
   padding-right: 2%;
   text-align: center;
+  background-color: #f7dfdf;
 }
 main .container .container-conteudo .popular-area .cards #card-two #fav-icon {
   float: right;
@@ -327,7 +335,7 @@ main .container .container-conteudo .popular-area .cards #card-two #tropical-sal
   margin-bottom: 4%;
 }
 main .container .container-conteudo .popular-area .cards #card-two h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-top: 4%;
   font-weight: bold;
   text-align: center;
@@ -348,8 +356,6 @@ main .input-name {
   margin-top: 7%;
   width: 80%;
   font-size: 0.875;
-  background-image: url("../imgs/home_screen/search_vector.png");
-  background-repeat: no-repeat;
   top: 50%;
   background-size: 8%;
   text-indent: 49px;
@@ -429,7 +435,7 @@ main .home-container {
   overflow: hidden;
 }
 .add-basket .botton-container h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.8rem;
   margin-left: 7%;
   margin-right: 7%;
@@ -470,6 +476,9 @@ main .home-container {
   font-size: 1.5rem;
   margin-left: 4%;
 }
+.add-basket .botton-container .quantity-control p {
+  font-family: "Nunito", sans-serif;
+}
 .add-basket .botton-container .order-details {
   height: 32%;
   border-bottom: 1px solid #f3f3f3;
@@ -485,6 +494,7 @@ main .home-container {
   font-weight: 500;
   margin-left: 6%;
   margin-top: 4%;
+  font-family: "Nunito", sans-serif;
 }
 .add-basket .botton-container .botton-info {
   width: 100%;
@@ -495,7 +505,7 @@ main .home-container {
   margin-right: 10%;
   padding-top: 10%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-bottom: 10%;
 }
 .add-basket .botton-container .botton-info button {
@@ -504,7 +514,7 @@ main .home-container {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -518,6 +528,10 @@ main .home-container {
 }
 .add-basket .botton-container .botton-info .extra-information button {
   cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+.add-basket .botton-container .botton-info .extra-information p {
+  font-family: "Nunito", sans-serif;
 }
 
 /* main da página Order List */
@@ -541,7 +555,7 @@ main .home-container {
 }
 #order-list header h2 {
   color: white;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   display: inline-block;
 }
@@ -552,7 +566,7 @@ main .home-container {
 }
 #order-list .cards h2 {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: inline-block;
   margin-top: 10%;
   position: absolute;
@@ -581,14 +595,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .card-one #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 16%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .card-two {
   width: 87%;
@@ -608,14 +622,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .card-two #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .card-three {
   width: 87%;
@@ -634,14 +648,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .card-three #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards .teste-container {
   height: 33%;
@@ -653,7 +667,7 @@ main .home-container {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -666,7 +680,7 @@ main .home-container {
 }
 #order-list .cards .teste-container #total {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 25%;
   float: left;
   position: absolute;
@@ -679,7 +693,7 @@ main .home-container {
 }
 #order-list .cards .teste-container #value-total {
   font-size: 1.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 30.5%;
   padding-left: 20%;
 }
@@ -690,7 +704,7 @@ main .home-container {
 }
 #order-list .cards-details-page h2 {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: inline-block;
   margin-top: 10%;
   position: absolute;
@@ -719,14 +733,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .card-one #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 16%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .card-two {
   width: 87%;
@@ -746,14 +760,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .card-two #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .popup-content {
   width: 100%;
@@ -775,14 +789,14 @@ main .home-container {
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .popup-content #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #order-list .cards-details-page .teste-container {
   height: 33%;
@@ -794,7 +808,7 @@ main .home-container {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -806,7 +820,7 @@ main .home-container {
 }
 #order-list .cards-details-page .teste-container #total {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 25%;
   float: left;
   position: absolute;
@@ -819,7 +833,7 @@ main .home-container {
 }
 #order-list .cards-details-page .teste-container #value-total {
   font-size: 1.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 30.5%;
   padding-left: 20%;
 }
@@ -830,6 +844,9 @@ main .home-container {
 
 body {
   height: 100vh;
+}
+body .home-container {
+  background-color: #f1eff6;
 }
 body .darker-background {
   width: 100%;
@@ -860,7 +877,7 @@ body .popup {
 }
 body .popup #title {
   font-size: 1.25rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 10%;
@@ -886,7 +903,7 @@ body .popup #button-left {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -905,7 +922,7 @@ body .popup #button-right {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -930,7 +947,7 @@ body .popup-card-page {
 }
 body .popup-card-page #title {
   font-size: 1.25rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-left: 6%;
   margin-right: 6%;
   margin-top: 10%;
@@ -939,7 +956,7 @@ body .popup-card-page #title {
 }
 body .popup-card-page #title-date {
   font-size: 1.25rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-left: 6%;
   margin-right: 40%;
   margin-top: 10%;
@@ -949,7 +966,7 @@ body .popup-card-page #title-date {
 }
 body .popup-card-page #title-cvv {
   font-size: 1.25rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin-right: 6%;
   margin-bottom: 6%;
   font-weight: 550;
@@ -977,7 +994,7 @@ body .popup-card-page .botao-background #button-complete-order {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1013,7 +1030,7 @@ body .popup-card-page #button-left {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1032,7 +1049,7 @@ body .popup-card-page #button-right {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1064,12 +1081,12 @@ body #order-complete-page img {
   margin-bottom: 10%;
 }
 body #order-complete-page h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
   margin-bottom: 5%;
 }
 body #order-complete-page p {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.25rem;
   margin-bottom: 20%;
 }
@@ -1079,7 +1096,7 @@ body #order-complete-page #button-top {
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1097,7 +1114,7 @@ body #order-complete-page #button-botton {
   border-radius: 10px;
   width: 50%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1127,9 +1144,10 @@ body #main-track-order-page header img {
   margin-right: 4%;
   margin-right: 10%;
   display: inline-block;
+  cursor: pointer;
 }
 body #main-track-order-page header h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: white;
   font-size: 1.5rem;
   display: inline;
@@ -1161,18 +1179,17 @@ body #main-track-order-page .test-container .boxes .center-content {
 }
 body #main-track-order-page .test-container .boxes .center-content h2 {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
 body #main-track-order-page .test-container .boxes .center-content h2 strong {
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
 }
 body #main-track-order-page .test-container .boxes .right-content {
   width: auto;
   height: 46.4%;
-  display: inline-block;
   float: right;
 }
 body #main-track-order-page .test-container .boxes .map-content {
@@ -1202,7 +1219,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   display: inline-block;
 }
 body #main-track-order-page .test-container .boxes .botton-content .center-content h2 {
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1rem;
   vertical-align: bottom;
 }
@@ -1226,7 +1243,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details header h2 {
   color: white;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   display: inline-block;
 }
@@ -1237,7 +1254,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards h2 {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: inline-block;
   margin-top: 10%;
   position: absolute;
@@ -1266,14 +1283,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .card-one #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 16%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .card-two {
   width: 87%;
@@ -1293,14 +1310,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .card-two #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .card-three {
   width: 87%;
@@ -1319,14 +1336,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .card-three #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards .teste-container {
   height: 33%;
@@ -1338,7 +1355,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1350,7 +1367,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards .teste-container #total {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 25%;
   float: left;
   position: absolute;
@@ -1363,7 +1380,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards .teste-container #value-total {
   font-size: 1.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 30.5%;
   padding-left: 20%;
 }
@@ -1374,7 +1391,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards-details-page h2 {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   display: inline-block;
   margin-top: 10%;
   position: absolute;
@@ -1403,14 +1420,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .card-one #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 16%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .card-two {
   width: 87%;
@@ -1430,14 +1447,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .card-two #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .popup-content {
   width: 100%;
@@ -1459,14 +1476,14 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   float: right;
   display: inline;
   margin-top: 14%;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .popup-content #qtd {
   display: inline-block;
   position: absolute;
   margin-top: 13%;
   font-size: 0.875rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 #card-details .cards-details-page .teste-container {
   height: 33%;
@@ -1478,7 +1495,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
   border-radius: 10px;
   width: 40%;
   height: 3.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1490,7 +1507,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards-details-page .teste-container #total {
   font-size: 1rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 25%;
   float: left;
   position: absolute;
@@ -1503,7 +1520,7 @@ body #main-track-order-page .test-container .boxes .botton-content .center-conte
 }
 #card-details .cards-details-page .teste-container #value-total {
   font-size: 1.5rem;
-  font-family: "josefin-sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   padding-top: 30.5%;
   padding-left: 20%;
 }
